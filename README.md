@@ -20,11 +20,19 @@ _______
 ### Generalidades de la Asignatura
 
 | Componente    | Description                |
-| :-------- | :------------------------- |
+| :-------- | :-------------------------|
 | Asignatura o espacio de aprendizaje  | IS-601 Base de Datos II |
 |Requisitos| IS-501 Base de Datos I
 |Unidades valorativas o créditos académicos| 4 UV
-Teóricos: 2
-Prácticos: 2
-Totales: 4
-|
+|Horas de estudio recomendadas| Diarias: 1 - Semanales: 5
+|Objetivos o competencias| **Competencias Generales**
+|                          | • Capacidad de comunicación oral y escrita.
+|                          |• Habilidad para buscar, procesar y analizar información procedente de fuentes diversas.
+|                           |• Capacidad para aplicar conocimientos en la práctica.
+|                          |• Capacidad de aprender y actualizarse continuamente.
+|                         |• Compromiso ético.
+|                         |• Capacidad de autoaprendizaje.
+||**Competencias Específicas**
+||• Conoce los fundamentos teóricos de la administración de bases de datos, y los emplea en forma práctica en las empresas.
+||• Conoce los fundamentos teóricos de las bases de datos.
+||• Diseña, crea y gestiona bases de datos.
