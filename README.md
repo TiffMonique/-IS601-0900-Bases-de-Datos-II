@@ -112,7 +112,7 @@ _________
 <div align="center">
   <p>Facultad de Ingeniería</p>
   <p>Departamento de Ingeniería en Sistemas</p>
-  <img src="https://dircom.unah.edu.hn/dmsdocument/7509-unah-version-horizontal-png"> </img> 
+  <img src="https://dircom.unah.edu.hn/dmsdocument/7509-unah-version-horizontal-png"></img> 
 </div>
 
 _________
