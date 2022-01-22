@@ -109,13 +109,18 @@ son los siguientes:
 - Fundamentos de Base de Datos. Abraham Silberschatz; Henry Korth.
 
 _________
+
 <div align="center">
+  <h2>Créditos</h2>
   <p>Facultad de Ingeniería</p>
   <p>Departamento de Ingeniería en Sistemas</p>
-  <img src="https://dircom.unah.edu.hn/dmsdocument/7509-unah-version-horizontal-png"></img> 
+  <img src="https://dircom.unah.edu.hn/dmsdocument/7509-unah-version-horizontal-png" width="200px"></img> 
 </div>
 
-_________
-Made with ❤️ by [TiffMonique](https://github.com/TiffMonique) 😊
+______
+<div align="center">
+ Made with ❤️ by <a href="https://github.com/TiffMonique" >TiffMonique</a>😊
+
+</div>
 
 
