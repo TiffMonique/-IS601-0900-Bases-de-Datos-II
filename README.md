@@ -88,10 +88,7 @@ _______
   - Alta disponibilidad
   - Herramientas RAD
   - Proyecto III Unidad
-
-_______
-_______
-
+  
 ## Materiales y Recursos didácticos
 - [Oracle 11g express](https://mega.nz/file/tkFXTQoR#__Px5kB4Da5EZk-rE-KJ1K3JQzunQP2OJQ8uaACI7Ws) 
 - [SqlDeveloper edición portable](https://mega.nz/file/p58WkRAQ#iD4w3g4XSgJPCr10vZidae-IBcpi_UIRNScL5OrU_7c) 
