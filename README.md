@@ -26,13 +26,47 @@ _______
 |Unidades valorativas o créditos académicos| 4 UV
 |Horas de estudio recomendadas| Diarias: 1 - Semanales: 5
 |Objetivos o competencias| **Competencias Generales**
-|                          | • Capacidad de comunicación oral y escrita.
-|                          |• Habilidad para buscar, procesar y analizar información procedente de fuentes diversas.
-|                           |• Capacidad para aplicar conocimientos en la práctica.
-|                          |• Capacidad de aprender y actualizarse continuamente.
-|                         |• Compromiso ético.
-|                         |• Capacidad de autoaprendizaje.
+|                          |   &nbsp;&nbsp;&nbsp;• Capacidad de comunicación oral y escrita.
+|                          |   &nbsp;&nbsp;&nbsp;• Habilidad para buscar, procesar y analizar información procedente de fuentes diversas.
+|                           |  &nbsp;&nbsp;&nbsp;• Capacidad para aplicar conocimientos en la práctica.
+|                          |   &nbsp;&nbsp;&nbsp;• Capacidad de aprender y actualizarse continuamente.
+|                         |    &nbsp;&nbsp;&nbsp;• Compromiso ético.
+|                         |   &nbsp;&nbsp;&nbsp;• Capacidad de autoaprendizaje.
 ||**Competencias Específicas**
-||• Conoce los fundamentos teóricos de la administración de bases de datos, y los emplea en forma práctica en las empresas.
-||• Conoce los fundamentos teóricos de las bases de datos.
-||• Diseña, crea y gestiona bases de datos.
+||&nbsp;&nbsp;&nbsp;• Conoce los fundamentos teóricos de la administración de bases de datos, y los emplea en forma práctica en las empresas.
+||&nbsp;&nbsp;&nbsp;• Conoce los fundamentos teóricos de las bases de datos.
+||&nbsp;&nbsp;&nbsp;• Diseña, crea y gestiona bases de datos.
+||&nbsp;&nbsp;&nbsp;• Gestiona de forma correcta la información almacenada en la base de datos
+||&nbsp;&nbsp;&nbsp;• Muestra actitudes positivas hacia la asignatura y la práctica de valores.
+||&nbsp;&nbsp;&nbsp;• Elabora un datawarehouse funcional que permita tomar mejores decisiones en las empresas.
+||&nbsp;&nbsp;&nbsp;• Diseña un modelo multidimensional para una base de datos OLAP
+||&nbsp;&nbsp;&nbsp;• Diseña, analiza y crea un proceso de extracción, transformación y carga de datos que permita alimentar la base de datos para un datawarehouse.
+||&nbsp;&nbsp;&nbsp;• Conoce los elementos teóricos de la alta disponibilidad en los gestores de base de datos.
+
+### Contenidos Generales
+
+
+ **Unidad I**  
+ - Introducción al SGBD Oracle.
+    - Introducción a Oracle, SqlDeveloper
+    - Creación de esquemas/usuarios.
+    - Seguridad (uso de grant y el revoke)
+    - Creación de roles, usuarios
+  
+- Uso de bloques anónimos
+    - Sentencias de control
+    - Ciclos
+    - Sentencia SELECT INTO
+    - Bulk Collect
+    - Excepciones
+    - Transacciones
+- Secuencias y campos autoincrementales.
+- Disparadores/Triggers.
+- Cursores
+
+**Unidad II**
+- Procedimientos Almacenados (PL/SQL)
+  - Tipos de datos.
+  - Sentencias de control.
+  - Sentencia SELECT INTO.
+
