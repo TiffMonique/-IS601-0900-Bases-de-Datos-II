@@ -43,6 +43,8 @@ _______
 ||&nbsp;&nbsp;&nbsp;• Diseña, analiza y crea un proceso de extracción, transformación y carga de datos que permita alimentar la base de datos para un datawarehouse.
 ||&nbsp;&nbsp;&nbsp;• Conoce los elementos teóricos de la alta disponibilidad en los gestores de base de datos.
 
+______
+
 ### Contenidos Generales
 
 
