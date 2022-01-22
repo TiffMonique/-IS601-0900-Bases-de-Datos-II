@@ -88,14 +88,34 @@ _______
   - Alta disponibilidad
   - Herramientas RAD
   - Proyecto III Unidad
-  
+___________  
 ## Materiales y Recursos didácticos
 - [Oracle 11g express](https://mega.nz/file/tkFXTQoR#__Px5kB4Da5EZk-rE-KJ1K3JQzunQP2OJQ8uaACI7Ws) 
 - [SqlDeveloper edición portable](https://mega.nz/file/p58WkRAQ#iD4w3g4XSgJPCr10vZidae-IBcpi_UIRNScL5OrU_7c) 
 - [Descarga de Pentaho](https://drive.google.com/file/d/1YxZfSMdk_f4fCKbe93yh278RNzQIMkBK/view) 
 - [SqlServer Data Tools ](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15) 
 
+__________
+## Bibliografía
+Los materiales que pueden consultar para los temas visto a lo largo de la asignatura
+son los siguientes:
 
+**Obligatoria:**
+- [Documentacion Oracle](https://docs.oracle.com/cd/E11882_01/index.htm) 
+- Business Intelligence: Competir Con Información., Josep Lluis Cano.
+
+**Complementaria:**
+- Elmasri, Ramaz. Fundamentals of database systems. Edición 6.
+- Fundamentos de Base de Datos. Abraham Silberschatz; Henry Korth.
+
+_________
+<div align="center">
+  <p>Facultad de Ingeniería</p>
+  <p>Departamento de Ingeniería en Sistemas</p>
+  <img src="https://dircom.unah.edu.hn/dmsdocument/7509-unah-version-horizontal-png"> </img> 
+</div>
+
+_________
 Made with ❤️ by [TiffMonique](https://github.com/TiffMonique) 😊
 
 
