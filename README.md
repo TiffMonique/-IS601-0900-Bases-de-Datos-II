@@ -89,3 +89,16 @@ _______
   - Herramientas RAD
   - Proyecto III Unidad
 
+_______
+_______
+
+## Materiales y Recursos didácticos
+- [Oracle 11g express](https://mega.nz/file/tkFXTQoR#__Px5kB4Da5EZk-rE-KJ1K3JQzunQP2OJQ8uaACI7Ws) 
+- [SqlDeveloper edición portable](https://mega.nz/file/p58WkRAQ#iD4w3g4XSgJPCr10vZidae-IBcpi_UIRNScL5OrU_7c) 
+- [Descarga de Pentaho](https://drive.google.com/file/d/1YxZfSMdk_f4fCKbe93yh278RNzQIMkBK/view) 
+- [SqlServer Data Tools ](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15) 
+
+
+⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+
+
