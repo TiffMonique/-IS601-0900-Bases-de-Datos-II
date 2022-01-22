@@ -69,4 +69,17 @@ _______
   - Tipos de datos.
   - Sentencias de control.
   - Sentencia SELECT INTO.
+- Gestión de transacciones dentro de procedimientos almacenados.
+- Ejecución de instrucciones DDL dentro de procedimientos almacenados.
+- Funciones.
+- Parámetros de entrada y salida.
+- Definición de Paquetes.
+- Concepto de Datawarehousing.
+- Procesamiento ETL.
+- Inteligencia de negocios
+  - Importancia de las bases de datos en la inteligencia de negocios
+  - Cubos OLAP
+  - Tableros de control (Dashboards)
+  - Uso de herramientas de BI
+
 
