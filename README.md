@@ -51,8 +51,7 @@ _______
     - Introducción a Oracle, SqlDeveloper
     - Creación de esquemas/usuarios.
     - Seguridad (uso de grant y el revoke)
-    - Creación de roles, usuarios
-  
+    - Creación de roles, usuarios 
 - Uso de bloques anónimos
     - Sentencias de control
     - Ciclos
@@ -80,6 +79,13 @@ _______
   - Importancia de las bases de datos en la inteligencia de negocios
   - Cubos OLAP
   - Tableros de control (Dashboards)
-  - Uso de herramientas de BI
-
+  - Uso de herramientas de BI.
+  
+**Unidad III**
+- Creación y calendarización de Jobs.
+- SQL Loader, Carga de archivos planos o archivos separados por comas.
+- Otros
+  - Alta disponibilidad
+  - Herramientas RAD
+  - Proyecto III Unidad
 
