@@ -1,0 +1,70 @@
+/*3) Crear un trigger para la tabla PROVEEDORES, se debe ejecutar después de un 
+INSERT o un UPDATE o un DELETE en esta tabla, este trigger debe guardar un registro 
+en la tabla LOGS con la información de la operación que se realizó. Además, se debe 
+controlar cualquier error que pueda suceder y en caso de error se debe insertar un 
+registro en la tabla LOGS con la información del error. El trigger es el que debe aprobar o 
+deshacer los cambios*/
+
+--CREACION DEL TRIGGER
+CREATE OR REPLACE TRIGGER TG_PROVEEDORES
+AFTER INSERT OR UPDATE OR DELETE ON PROVEEDORES
+FOR EACH ROW
+
+DECLARE
+  PRAGMA AUTONOMOUS_TRANSACTION;
+BEGIN
+    IF (INSERTING) THEN
+        INSERT INTO LOGS VALUES(SQ_LOGS.NEXTVAL, 'SE REALIZO UN INSERT A PROVEEDORES CON EL ID '||:NEW.PROVEEDORID,
+        SYSTIMESTAMP, USER, 'OPERACION INSERT');   
+    END IF;
+    
+     
+    IF(UPDATING) THEN
+        INSERT INTO LOGS VALUES(SQ_LOGS.NEXTVAL,
+        'SE REALIZO UN UPDATE EN LA TABLA PROVEEDORES EL 
+        ANTERIOR: PROVEEDORID: '||:OLD.PROVEEDORID|| 'EL NUEVO PROVEEDORID ES: '||:NEW.PROVEEDORID||
+        ' NOMBRE ANTERIOR DEL PROVEEDOR ERA: '||:OLD.NOMBREPROV||' NUEVO NOMBRE ES: '||
+        :NEW.NOMBREPROV||'EL CONTACTO ANTIGUO ERA : '||:OLD.CONTACTO||' NUEVO CONTACTO: '||:NEW.CONTACTO,
+        SYSTIMESTAMP, USER, 'OPERACION UPDATE'); 
+    END IF;
+    
+    IF (DELETING) THEN
+        INSERT INTO LOGS VALUES(SQ_LOGS.NEXTVAL, 'SE REALIZO UN DELETE EN LA TABLA PROVEEDORES Y EL 
+        DATO EN EL ID ERA: '||:OLD.PROVEEDORID||'  EL NOMBRE ERA: '||:OLD.NOMBREPROV,
+        SYSTIMESTAMP, USER, 'OPERACION DELETE'); 
+    END IF;
+    
+    COMMIT;
+    
+    EXCEPTION
+        WHEN OTHERS THEN
+             INSERT INTO LOGS VALUES(SQ_LOGS.NEXTVAL, 'SE produjo un error',
+                                     SYSTIMESTAMP, USER, 'ERROR');
+                COMMIT;
+                ROLLBACK;
+  
+END;
+
+
+
+--PROBANDO UN INSERT
+BEGIN
+    
+    INSERT INTO proveedores
+       VALUES (28, 'Juan Bautista', 'Juan Perez', 98653214, 22708102);
+
+
+END;
+
+--PROBANDO EL UPDATE
+BEGIN
+    UPDATE PROVEEDORES SET NOMBREPROV='DIEGO' WHERE NOMBREPROV='DON DIEGO';
+    COMMIT;
+    
+END;
+
+--PROBANDO EL TRIGGER CON UN DELETE
+BEGIN
+    DELETE  FROM PROVEEDORES WHERE nombreprov='LANCOME';
+    COMMIT; 
+END;
