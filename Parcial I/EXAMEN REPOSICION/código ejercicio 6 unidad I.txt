@@ -1,0 +1,26 @@
+DECLARE
+  v_cod_region REGIONS.REGION_ID%TYPE,
+  v_nomb_region REGIONS.REGION_NAME%TYPE,
+  v_cant_reg NUMBER,
+  v_iter NUMBER,
+BEGIN
+  SELECT COUNT(regions.region_ID) INTO v_cant_reg FROM REGIONS; --ESTE CODIGO ESTÁ CORRECTO
+
+  FOR v_iter ON 1..v_iter LOOP
+    v_cod_region:=v_iter;
+    SELECT regions.region_name INTO v_nomb_region FROM REGIONS
+    WHERE regions.region_ID=v_iter;
+    
+    DBMS_OUTPUT.PUT_LINE('EL NOMBRE DE LA REGION CON CODIGO '||v_cod_region||' ES: '||v_nomb_region); 
+  END;
+  
+  DBMS_OUTPUT.PUT_LINE('OBTENIENDO NOMBRE DE REGION 5');
+  v_cod_region:=5;
+  SELECT regions.region_name FROM REGIONS
+  WHERE regions.region_ID=v_cod_region;    
+  DBMS_OUTPUT.PUT_LINE('EL NOMBRE DE LA REGION CON CODIGO 5 ES: '||v_nomb_region);
+  
+  EXCEPTION
+    WHEN TOO_MANY_ROWS THEN
+      DBMS_OUPUT.PUT_LINE('LA CONSULTA HA RETORNADO MUCHOS REGISTROS');
+END;
